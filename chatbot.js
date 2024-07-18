@@ -10518,11 +10518,7 @@ const L9 = { name: "mdi-send", render: F9 }, O9 = { class: "chat-input" }, P9 = 
             await i(), !o.showWelcomeScreen && !s.value && await c();
         }), (l, a) => (oe(), Se(uh, { class: "chat-wrapper" }, {
             header: ft(() => [
-                be("img", {
-                    src: "https://cdn.jsdelivr.net/gh/jasonleung1394/mycdn@latest/robot.png",
-                    alt: "Avatar",
-                    class: "chat-avatar" // Optional: Add CSS class for styling
-                }),
+                we("img", { src: "https://cdn.jsdelivr.net/gh/jasonleung1394/mycdn@latest/robot.png" }, null, 1),
                 we("h5", null, Zn(ge(e)("title")), 1),
                 we("p", null, Zn(ge(e)("subtitle")), 1)
             ]),
