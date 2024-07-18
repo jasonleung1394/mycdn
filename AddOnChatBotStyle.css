@@ -1,0 +1,38 @@
+:root{
+    --chat--message--bot--background: transparent;
+    --chat--message--user--background: transparent;
+    --chat--message--user--color:black;
+    --chat--border--radius: 20px;
+    --chat--window--border-radius: 1.5rem;
+    --chat--header--background: #3e4b51;
+    --chat--toggle--color: #3e4b51;
+    --chat--toggle--background: #23aed8;
+    --chat--toggle--hover--background: #1fa4cd;
+    --chat--color-primary-shade-100: #0a3643;
+    --chat--header--padding: 0 0 0 1rem;
+}
+.chat-avatar {
+width: 30px; /* Example: Adjust size for small avatars */
+height: 30px;
+padding-top: 5px;
+}
+.chat-message-from-bot {
+display: flex;
+gap: 1vw;
+}
+.chat-input-send-button{
+cursor: pointer !important;
+}
+
+.chat-message-markdown {
+padding: 20px;
+background-color: white;
+border-radius: 1.5rem;
+}
+.chat-message-from-user{
+display: flex;
+justify-content: flex-end;
+}
+.chat-message-from-user .chat-message-markdown {
+width: 80%;
+}
