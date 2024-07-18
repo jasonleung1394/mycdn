@@ -10523,7 +10523,7 @@ const L9 = { name: "mdi-send", render: F9 }, O9 = { class: "chat-input" }, P9 = 
                     alt: "Avatar",
                     class: "chat-avatar" // Optional: Add CSS class for styling
                 }),
-                we("h3", null, Zn(ge(e)("title")), 1),
+                we("h5", null, Zn(ge(e)("title")), 1),
                 we("p", null, Zn(ge(e)("subtitle")), 1)
             ]),
             footer: ft(() => [
