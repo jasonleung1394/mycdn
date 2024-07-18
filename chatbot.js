@@ -10347,9 +10347,9 @@ const S9 = A9, ps = /* @__PURE__ */ Ue({
         // Function to determine avatar URL based on sender
         const getAvatarUrl = () => {
             if (n.value.sender === "bot") {
-                return "https://cdn.jsdelivr.net/gh/jasonleung1394/mycdn@master/robot.png"; // Replace with actual bot avatar URL
+                return "https://cdn.jsdelivr.net/gh/jasonleung1394/mycdn@latest/robot.png"; // Replace with actual bot avatar URL
             } else if (n.value.sender === "user") {
-                return "https://cdn.jsdelivr.net/gh/jasonleung1394/mycdn@master/robot.png"; // Replace with actual user avatar URL
+                return "https://cdn.jsdelivr.net/gh/jasonleung1394/mycdn@latest/robot.png"; // Replace with actual user avatar URL
             }
             return ""; // Return default or empty URL if sender is neither bot nor user
         };
