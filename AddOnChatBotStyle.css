@@ -18,10 +18,9 @@
 }
 
 .chat-header img {
-    width: 30px;
-    /* Example: Adjust size for small avatars */
-    height: 30px;
+    height: 3vh;
     margin: auto 5px auto 0;
+    padding: 15px;
 }
 
 .chat-avatar {
