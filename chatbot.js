@@ -10374,13 +10374,26 @@ const S9 = A9, ps = /* @__PURE__ */ Ue({
                             class: "chat-message-markdown",
                             source: (() => {
                                 try {
+                                    const timestamp = new Date().toLocaleString();
                                     return JSON.parse(r.value).response.text;
                                 } catch (error) {
                                     return r.value;
                                 }
                             })(),
                             options: o
-                        }, null, 8, ["source"])
+                        }, null, 8, ["source"]),
+                        // pe(ge(S9), {
+                        //     class: "chat-message-timeStamp",
+                        //     source: (() => {
+                        //         try {
+                        //             const timestamp = new Date().toLocaleString();
+                        //             return timestamp;
+                        //         } catch (error) {
+                        //             return r.value;
+                        //         }
+                        //     })(),
+                        //     options: o
+                        // }, null, 8, ["source"])
                     ])
                 ], 2);
             } else {
@@ -10392,7 +10405,19 @@ const S9 = A9, ps = /* @__PURE__ */ Ue({
                         class: "chat-message-markdown",
                         source: r.value,
                         options: o
-                    }, null, 8, ["source"])
+                    }, null, 8, ["source"]),
+                    // pe(ge(S9), {
+                    //     class: "chat-message-timeStamp",
+                    //     source: (() => {
+                    //         try {
+                    //             const timestamp = new Date().toLocaleString();
+                    //             return timestamp;
+                    //         } catch (error) {
+                    //             return r.value;
+                    //         }
+                    //     })(),
+                    //     options: o
+                    // }, null, 8, ["source"])
                 ]);
 
             }
