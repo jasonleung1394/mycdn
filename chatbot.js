@@ -5937,7 +5937,7 @@ const Rt = oh(), ih = { class: "chat-layout" }, lh = {
     chatSessionKey: "sessionId",
     defaultLanguage: "en",
     showWelcomeScreen: !1,
-    initialMessages: ["Hi there! 👋", "My name is Nathan. How can I assist you today?"],
+    initialMessages: ["Hi there! 👋", "My name is Sofia. How can I assist you today?"],
     i18n: {
         en: {
             title: "Hi there! 👋",
