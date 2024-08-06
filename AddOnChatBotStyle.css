@@ -12,6 +12,9 @@
     --chat--header--padding: 0 0 0 1rem;
     --chat--spacing: 0.5rem;
     --chat--textarea--height: auto;
+    --chat--window--width: 600px;
+
+    --chat--message--font-size: 0.7rem;
 }
 *, *:before, *:after {
     box-sizing: content-box !important;
@@ -49,7 +52,7 @@
 }
 
 .chat-message-markdown {
-    padding: 15px 15px 15px 30px;
+    padding: 15px 20px 15px 30px;
     background-color: white;
     border-radius: 1rem;
 }
