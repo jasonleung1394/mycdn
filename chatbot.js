@@ -5984,7 +5984,7 @@ const ph = { class: "chat-get-started" }, dh = /* @__PURE__ */ Ue({
             })
         ]));
     }
-}), gh = {}, mh = { class: "chat-powered-by" }, _h = /* @__PURE__ */ we("a", { href: "https://n8n.io?utm_source=n8n-external&utm_medium=widget-powered-by" }, "n8n", -1);
+}), gh = {}, mh = { class: "chat-powered-by" }, _h = /* @__PURE__ */ we("a", { href: "https://www.imtg.com.au/" }, "IMTG", -1);
 function bh(t, e) {
     return oe(), be("div", mh, [
         Ns(" Powered by "),

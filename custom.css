@@ -183,12 +183,12 @@
 }
 
 .chat-powered-by a {
-    color: var(--chat--color-primary);
+    color: #23aed8;
     text-decoration: none
 }
 
 .chat-get-started-footer {
-    display: none;
+    /* display: none; */
     padding: var(--chat--spacing)
 }
 
