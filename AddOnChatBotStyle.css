@@ -13,6 +13,7 @@
     --chat--spacing: 0.5rem;
     --chat--textarea--height: auto;
     --chat--window--width: 600px;
+    --chat--header--color: black;
 
     --chat--message--font-size: 0.7rem;
 }
@@ -26,23 +27,33 @@
 
 .chat-header img {
     height: 2vh;
-    margin: auto 5px auto 0;
+    margin: 5px;
     padding: 15px;
+    border-radius: 10px;
+}
+
+.chat-header span{
+    align-self: center;
+    /* padding-top: 15px; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .chat-avatar {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    /* height: 30px; */
     padding-top: 5px;
 }
 
 .chat-message-from-bot {
     display: grid;
-    grid-template-columns: 30px auto;
+    grid-template-columns: 3rem auto;
     grid-template-areas:
         "avatar message"
         "timestamp timestamp";
-    gap: 0.5vw;
+    gap: 0.75vw;
+}
+.chat-message-from-bot img{
+    border-radius: 20rem;
 }
 
 
@@ -52,7 +63,7 @@
 }
 
 .chat-message-markdown {
-    padding: 15px 20px 15px 30px;
+    padding: 20px;
     background-color: white;
     border-radius: 1rem;
 }
@@ -73,7 +84,7 @@
 }
 
 .chat-message-from-user  {
-    width: 20vw;
+    width: 400px;
  }
 .chat-message-from-user .chat-message-markdown p{
     white-space: normal ;
