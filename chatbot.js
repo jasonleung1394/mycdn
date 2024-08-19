@@ -10347,7 +10347,7 @@ const S9 = A9, ps = /* @__PURE__ */ Ue({
         // Function to determine avatar URL based on sender
         const getAvatarUrl = () => {
             if (n.value.sender === "bot") {
-                return "https://thispersondoesnotexist.com/"; // Replace with actual bot avatar URL
+                return "./1715577004386_v1_1024.jpg"; // Replace with actual bot avatar URL
             } else if (n.value.sender === "user") {
                 return "https://cdn.jsdelivr.net/gh/jasonleung1394/mycdn@latest/robot.png"; // Replace with actual user avatar URL
             }
@@ -10544,7 +10544,7 @@ const L9 = { name: "mdi-send", render: F9 }, O9 = { class: "chat-input" }, P9 = 
             header: ft(() => [
                 we("img", { src: Zn(ge(e)("https://www.wedderburn.com.au/wp-content/uploads/2024/05/Wedderburn-Logo_Blue_scale_RGB-1024x822.png")) }, null, 1), we("span", {
                     style: { fontSize: "20px" }
-                }, "Sophia", 1)
+                }, "Wedderburn", 1)
             ]),
             footer: ft(() => [
                 ge(s) ? (oe(), Se($9, { key: 0 })) : (oe(), Se(kh, { key: 1 }))
