@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="./custom.css?id=1"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./AddOnChatBotStyle.css?id=3">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <script type="module">
+      import { createChat } from "./chatbot.js?id=9";
+      createChat({
+        webhookUrl:
+          "https://primary-production-4c7d.up.railway.app/webhook/49fda0ad-5aea-4884-8e53-740631a9724e/chat",
+          i18n: {
+            en: {
+                title: 'AI Assistant',
+                subtitle: "",
+                footer: '',
+                getStarted: 'New Conversation',
+                inputPlaceholder: 'Type your question..',
+            },
+        },
+      });
+    </script>
+    <script src="./addOnFeatures.js"></script>
+  </head>
+  <body></body>
+</html>
