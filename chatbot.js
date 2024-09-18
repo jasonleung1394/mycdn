@@ -5937,7 +5937,7 @@ const Rt = oh(), ih = { class: "chat-layout" }, lh = {
     chatSessionKey: "sessionId",
     defaultLanguage: "en",
     showWelcomeScreen: !1,
-    initialMessages: ["Hello, Welcome to Wedderburn! I’m here to help you find the perfect weighing solution. Could you please tell me more about what you’re looking for? Are you interested in something specific, like a retail scale or industrial weighing system?"],
+    initialMessages: ["My name is Sofia. How can I assist you today?"],
     i18n: {
         en: {
             title: "Hi there! 👋",
@@ -10347,7 +10347,7 @@ const S9 = A9, ps = /* @__PURE__ */ Ue({
         // Function to determine avatar URL based on sender
         const getAvatarUrl = () => {
             if (n.value.sender === "bot") {
-                return "https://thispersondoesnotexist.com/"; // Replace with actual bot avatar URL
+                return "https://cdn.jsdelivr.net/gh/jasonleung1394/mycdn@latest/robot.png"; // Replace with actual bot avatar URL
             } else if (n.value.sender === "user") {
                 return "https://cdn.jsdelivr.net/gh/jasonleung1394/mycdn@latest/robot.png"; // Replace with actual user avatar URL
             }
@@ -10542,7 +10542,7 @@ const L9 = { name: "mdi-send", render: F9 }, O9 = { class: "chat-input" }, P9 = 
             await i(), !o.showWelcomeScreen && !s.value && await c();
         }), (l, a) => (oe(), Se(uh, { class: "chat-wrapper" }, {
             header: ft(() => [
-                we("img", { src: Zn(ge(e)("https://www.imtg.com.au/wp-content/uploads/2017/12/IMTG-logo-transparent.png")) }, null, 1),
+                we("img", { src: Zn(ge(e)("https://citsolutions.edu.au/__data/assets/image/0006/179781/CITSolutionsLogo.png")) }, null, 1),
             ]),
             footer: ft(() => [
                 ge(s) ? (oe(), Se($9, { key: 0 })) : (oe(), Se(kh, { key: 1 }))
