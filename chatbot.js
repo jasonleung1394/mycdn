@@ -10374,7 +10374,7 @@ const S9 = A9, ps = /* @__PURE__ */ Ue({
                             class: "chat-message-markdown",
                             source: (() => {
                                 try {
-                                    return JSON.parse(r.value)['bot reply'];
+                                    return JSON.parse(r.value)['bot reply'].replace(/\\n/g, ' ').trim();
                                 } catch (error) {
                                     return r.value;
                                 }
