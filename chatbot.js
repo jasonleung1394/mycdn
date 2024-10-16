@@ -5937,7 +5937,7 @@ const Rt = oh(), ih = { class: "chat-layout" }, lh = {
     chatSessionKey: "sessionId",
     defaultLanguage: "en",
     showWelcomeScreen: !1,
-    initialMessages: ["My name is Sofia. How can I assist you today?"],
+    initialMessages: ["My name is Zenda. How can I assist you today?"],
     i18n: {
         en: {
             title: "Hi there! 👋",
@@ -10347,9 +10347,9 @@ const S9 = A9, ps = /* @__PURE__ */ Ue({
         // Function to determine avatar URL based on sender
         const getAvatarUrl = () => {
             if (n.value.sender === "bot") {
-                return "https://cdn.jsdelivr.net/gh/jasonleung1394/mycdn@latest/robot.png"; // Replace with actual bot avatar URL
+                return "https://cdn.jsdelivr.net/gh/jasonleung1394/mycdn@latest/LanguageHubAIAssistant-transformed.webp"; // Replace with actual bot avatar URL
             } else if (n.value.sender === "user") {
-                return "https://cdn.jsdelivr.net/gh/jasonleung1394/mycdn@latest/robot.png"; // Replace with actual user avatar URL
+                return "https://cdn.jsdelivr.net/gh/jasonleung1394/mycdn@latest/LanguageHubAIAssistant-transformed.webp"; // Replace with actual user avatar URL
             }
             return ""; // Return default or empty URL if sender is neither bot nor user
         };
